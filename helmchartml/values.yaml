@@ -1,0 +1,10 @@
+# Default values for helmchartml.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+microservices:
+  - name: saludoapp
+    image: fredyball/saludoapp:0.0.2
+    path: /testsaludo
+  - name: saludoapp1
+    image: fredyball/saludoapp:0.0.1
+    path: /testsaludo1
