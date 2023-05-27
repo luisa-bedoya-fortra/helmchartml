@@ -4,7 +4,10 @@
 microservices:
   - name: saludoapp
     image: fredyball/saludoapp:0.0.2
-    path: /testsaludo
+    path: /testprimero
   - name: saludoapp1
     image: fredyball/saludoapp:0.0.1
-    path: /testsaludo1
+    path: /testsegundo
+  - name: saludoapp2
+    image: fredyball/saludoapp:0.0.1
+    path: /testtercero
