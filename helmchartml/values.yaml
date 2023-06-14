@@ -11,3 +11,6 @@ microservices:
   - name: saludoapp2
     image: fredyball/saludoapp:0.0.1
     path: /testtercero
+  - name: saludoapp3
+    image: fredyball/saludoapp:0.0.2
+    path: /testcuarto  
