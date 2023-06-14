@@ -12,5 +12,5 @@ microservices:
     image: fredyball/saludoapp:0.0.1
     path: /testtercero
   - name: testmodel
-    image: mlflowminio-predictmodel:latest
+    image: fredyball/testmodel1:0.0.1
     path: /testmodel  
